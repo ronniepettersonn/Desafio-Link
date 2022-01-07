@@ -1,0 +1,79 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--body-bg-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--purple);
+
+    font-size: 16px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.nome-perfil {
+    text-align: center;
+    padding: 15px 0 33px 0;
+}
+
+.borda-perfil {
+    margin: 0 auto;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    border: 2px solid var(--purple);
+
+    padding: 5px;
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link {
+    height: 50px;
+    width: 320px;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: 3px solid var(--purple);
+    border-radius: 5px;
+    color: var(--purple);
+
+    font-weight: 600;
+    text-transform: uppercase;
+
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 68px;
+
+    width: 230px;
+}
