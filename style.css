@@ -38,10 +38,13 @@ img {
 
 .nome-perfil strong {
     font-size: 1.3rem;
+    line-height: 1rem;
 }
 
 .nome-perfil span {
     color: rgb(166, 166, 166);
+    margin-top: .5rem;
+    line-height: 1rem;
 }
 
 .borda-perfil {
@@ -49,8 +52,8 @@ img {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 96px;
-    height: 96px;
+    width: 112px;
+    height: 112px;
     border-radius: 50%;
 
 }
@@ -59,7 +62,18 @@ img {
 .links {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 0;
+}
+
+.links a i {
+    font-size: 1.2rem;
 }
 
 .link {
@@ -81,13 +95,13 @@ img {
 
     text-decoration: none;
 
-    transition: border-color .2s, color .2s;
+    transition: background .2s, color .2s;
 }
 
 .link:hover {
-    border-color: var(--purple);
-    color: var(--purple);
-
+    background: var(--purple);
+    border: 0;
+    color: var(--body-bg-color);
 }
 
 .footer {
