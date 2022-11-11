@@ -81,4 +81,22 @@ img {
     margin-top: 68px;
 
     width: 230px;
+    gap: 1rem;
+}
+
+.footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    border-radius: 4px;
+}
+
+.footer a svg path {
+    stroke: white;
+}
+
+.footer a:hover {
+    background-color: #2fc4e4;
 }
