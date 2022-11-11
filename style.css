@@ -72,6 +72,14 @@ img {
     text-transform: uppercase;
 
     text-decoration: none;
+
+    transition: border-color .3s, color .3s;
+}
+
+.link:hover {
+    border-color: var(--purple);
+    color: var(--purple);
+
 }
 
 .footer {
@@ -91,6 +99,8 @@ img {
     height: 40px;
     width: 50px;
     border-radius: 4px;
+
+    transition: background-color .2s;
 }
 
 .footer a svg path {
