@@ -29,9 +29,19 @@ img {
 }
 
 .nome-perfil {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 15px 0 33px 0;
     margin-top: 1rem;
+}
+
+.nome-perfil strong {
+    font-size: 1.3rem;
+}
+
+.nome-perfil span {
+    color: rgb(166, 166, 166);
 }
 
 .borda-perfil {
@@ -39,12 +49,10 @@ img {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 148px;
-    height: 148px;
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
 
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    ;
 }
 
 
@@ -73,7 +81,7 @@ img {
 
     text-decoration: none;
 
-    transition: border-color .3s, color .3s;
+    transition: border-color .2s, color .2s;
 }
 
 .link:hover {
