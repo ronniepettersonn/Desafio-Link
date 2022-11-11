@@ -1,7 +1,8 @@
 :root {
-    --body-bg-color: #FAF7FD;
-    --purple: #BB99DD;
-  }
+    --body-bg-color: #2e2e2e;
+    --purple: #2fc4e4;
+    --white: #fff;
+}
 
 * {
     margin: 0;
@@ -18,7 +19,7 @@ body {
     align-items: center;
 
     font-family: 'Poppins', sans-serif;
-    color: var(--purple);
+    color: var(--white);
 
     font-size: 16px;
 }
@@ -30,18 +31,22 @@ img {
 .nome-perfil {
     text-align: center;
     padding: 15px 0 33px 0;
+    margin-top: 1rem;
 }
 
 .borda-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    width: 215px;
-    height: 215px;
+    width: 148px;
+    height: 148px;
     border-radius: 50%;
-    border: 2px solid var(--purple);
 
-    padding: 5px;
-    
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    ;
 }
+
 
 .links {
     display: flex;
@@ -52,16 +57,16 @@ img {
 .link {
     height: 50px;
     width: 320px;
-    
+
     display: flex;
 
     justify-content: center;
     align-items: center;
 
     background: transparent;
-    border: 3px solid var(--purple);
-    border-radius: 5px;
-    color: var(--purple);
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    color: var(--white);
 
     font-weight: 600;
     text-transform: uppercase;
