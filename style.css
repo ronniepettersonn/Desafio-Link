@@ -104,14 +104,26 @@ img {
     color: var(--body-bg-color);
 }
 
-.footer {
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: .8rem;
+    color: rgb(79, 79, 79);
+}
+
+.footer .wrapper {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
     margin-top: 68px;
 
     max-width: 250px;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 .footer a {
